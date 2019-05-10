@@ -6,9 +6,7 @@ function getZipkin(zipkinEndpoint, localServiceName) {
 
     if (!zipkinEndpoint) {
         console.warn("Zipkin is not enabled");
-        return (_req, _res, next) => {
-            next();
-        };
+        return { middleware: (_req, _res, next) => { next(); } };
     }
 
     const HttpLogger = require('zipkin-transport-http').HttpLogger
