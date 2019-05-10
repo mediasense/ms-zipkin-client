@@ -1,5 +1,5 @@
 {
-  "name": "ms-zipkin-logger",
+  "name": "ms-zipkin-client",
   "version": "0.1.0",
   "description": "Simple way to get Zipkin into our services",
   "main": "index.js",
