@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mediasense/ms-zipkin-client#readme",
   "dependencies": {
+    "noop-logger": "^0.1.1",
     "zipkin": "^0.17.1",
     "zipkin-instrumentation-express": "^0.17.1",
     "zipkin-transport-http": "^0.17.1"
